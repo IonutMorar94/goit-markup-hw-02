@@ -13,7 +13,6 @@ body{
 .first-logo{
     color: #2196F3
 }
-
 .unstyled-list{
     list-style: none;
 }
@@ -25,7 +24,7 @@ body{
     color: #212121;
     text-decoration: none;
 }
-.navigation-list li a:hover{
+.navigation-list li dd{
     color: #2196F3
 }
 .right-navigation-list li a{
@@ -36,15 +35,12 @@ body{
     color: #757575;
     text-decoration: none;
 }
-.right-navigation-list li a:hover{
-    color: #2196F3
-}
 .buttons-list li button{
     background: #F5F4FA;
     border-radius: 4px;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
@@ -54,45 +50,33 @@ body{
 .buttons-list li button:hover{
     background: #2196F3
 }
-.project-list-title{
+.your-a-class li a:hover{
+    color: #2196F3
+}
+.projects-list li h3{
     font-weight: 700;
     font-size: 18px;
     line-height: 36px;
     letter-spacing: 0.06em;
     color: #212121;
 }
-.project-list-description{
+.projects-list li p {
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.03em;
     color: #757575;
 }
-.addres-list li a{
+.addres-list li a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
 }
-.footer-adress{
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    color: black
-}
-.footer-mail {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    color: black
+footer{
+    background: #2F303A;
 }
 
-.footer-tel {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    color: black
-}
-.addres-list li a:hover{
-    color: #2196F3
-}
+
