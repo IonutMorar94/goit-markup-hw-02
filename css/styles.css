@@ -24,8 +24,8 @@ body{
     color: #212121;
     text-decoration: none;
 }
-.navigation-list li dd{
-    color: #2196F3
+.studio-style{
+    color: #2196F3;
 }
 .right-navigation-list li a{
     font-weight: 500;
@@ -50,9 +50,15 @@ body{
 .buttons-list li button:hover{
     background: #2196F3
 }
-.your-a-class li a:hover{
-    color: #2196F3
+#active-button{
+    background: #2196F3
+ }
+.your-a-class:hover{
+    color: #2196F3;
 }
+#active{
+    color: #2196F3;
+    }
 .projects-list li h3{
     font-weight: 700;
     font-size: 18px;
@@ -78,5 +84,3 @@ body{
 footer{
     background: #2F303A;
 }
-
-
