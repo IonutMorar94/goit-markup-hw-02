@@ -2,26 +2,22 @@ body{
     font-family: Roboto;
     color: #212121;
 }
-.unstyled-list{
-    list-style: none;
-}
 .logo{
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: black;
     text-decoration: none;
-    position: absolute;
-    left: 215px;
-    top: 24px;
 }
 .first-logo{
     color: #2196F3
 }
+
+.unstyled-list{
+    list-style: none;
+}
 .navigation-list li a{
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -29,18 +25,10 @@ body{
     color: #212121;
     text-decoration: none;
 }
-.nav-mail{
-    position: absolute;
-    left: 1088px;
-    top: 32px;
-}
-.nav-tel{
-    position: absolute;
-    left: 1263px;
-    top: 32px
+.navigation-list li a:hover{
+    color: #2196F3
 }
 .right-navigation-list li a{
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -48,83 +36,30 @@ body{
     color: #757575;
     text-decoration: none;
 }
-.studio-hover:hover{
-    color: #2196F3;
+.right-navigation-list li a:hover{
+    color: #2196F3
 }
-.potrofolio-hover:hover{
-    color: #2196F3;
-}
-.nav-studio {
-    position: absolute;
-    left: 453px;
-    top: 32px;
-}
-.nav-portofolio {
-    position: absolute;
-    left: 545px;
-    top: 32px;
-}
-.nav-contacts {
-    position: absolute;
-    left: 653px;
-    top: 32px;
-}
-.buttons-stile {
-    border: none;
+.buttons-list li button{
     background: #F5F4FA;
     border-radius: 4px;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.62;
+    line-height: 26px;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    border: none;
+    cursor: pointer;
 }
-.buttons-stile:hover {
-    background: #2196F3;
-}
-.button-all {
-    position: absolute;
-    width: 20px;
-    height: 26px;
-    left: 564px;
-    top: 180px;
-}
-.button-web {
-    position: absolute;
-    width: 76px;
-    height: 26px;
-    left: 636px;
-    top: 180px;
-}
-.button-apps {
-    position: absolute;
-    width: 39px;
-    height: 26px;
-    left: 764px;
-    top: 180px;
-}
-.button-design {
-    position: absolute;
-    width: 52px;
-    height: 26px;
-    left: 855px;
-    top: 180px;
-}
-.button-market {
-    position: absolute;
-    width: 77px;
-    height: 26px;
-    left: 959px;
-    top: 180px;
+.buttons-list li button:hover{
+    background: #2196F3
 }
 .project-list-title{
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 36px;
-        letter-spacing: 0.06em;
-        color: #212121;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #212121;
 }
 .project-list-description{
     font-weight: 400;
@@ -133,49 +68,31 @@ body{
     letter-spacing: 0.03em;
     color: #757575;
 }
-.project-block-one {
-    position: absolute;
-    left: 215px;
-    top: 262px;
+.addres-list li a{
+    text-decoration: none;
 }
-.project-block-two {
-    position: absolute;
-    left: 615px;
-    top: 262px;
+.footer-adress{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: black
 }
-.project-block-three {
-    position: absolute;
-    left: 1015px;
-    top: 262px;
-}
-.project-block-four {
-    position: absolute;
-    left: 215px;
-    top: 696px;
-}
-.project-block-five {
-    position: absolute;
-    left: 615px;
-    top: 696px;
-}
-.project-block-six {
-    position: absolute;
-    left: 1015px;
-    top: 696px;
-}
-.project-block-seven {
-    position: absolute;
-    left: 215px;
-    top: 1130px;
-}
-.project-block-eight {
-    position: absolute;
-    left: 615px;
-    top: 1130px;
-}
-.project-block-nine {
-    position: absolute;
-    left: 1015px;
-    top: 1130px;
+.footer-mail {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: black
 }
 
+.footer-tel {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: black
+}
+.addres-list li a:hover{
+    color: #2196F3
+}
