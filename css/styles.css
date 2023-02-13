@@ -28,7 +28,7 @@ body{
 .unstyled-list{
     list-style: none;
 }
-.navigation-list .your-a-class{
+.navigation-list .link-style{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -36,7 +36,7 @@ body{
     color: #212121;
     text-decoration: none;
 }
-.right-navigation-list .your-a-class{
+.right-navigation-list .link-style{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -44,17 +44,18 @@ body{
     color: #757575;
     text-decoration: none;
 }
-.your-a-class:hover{
+.link-style:hover{
     color: #2196F3;
 }
-.your-a-class{
+.link-style{
     font-weight: 400;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
-}
+    font-style: normal;
+    }
 .active-button{
     background: #F5F4FA;
     border-radius: 4px;
@@ -76,17 +77,23 @@ body{
 .projects-title{
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     letter-spacing: 0.06em;
     color: #212121;
 }
 .projects-text{
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.87;
     letter-spacing: 0.03em;
     color: #757575;
 }
 footer{
-    background: #2F303A;
+        background: #2F303A;
+}
+.adress-style{
+    color: #FFFFFF;
+}
+.adress-style:hover{
+    color: #2196F3;
 }
