@@ -13,6 +13,18 @@ body{
 .first-logo{
     color: #2196F3
 }
+.footer-logo{
+font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+    text-decoration: none;
+}
+.second-footer-studio{
+    color: white;
+}
 .unstyled-list{
     list-style: none;
 }
@@ -53,14 +65,14 @@ body{
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 
 }
-.projects-list li h3{
+.projects-title{
     font-weight: 700;
     font-size: 18px;
     line-height: 36px;
     letter-spacing: 0.06em;
     color: #212121;
 }
-.projects-list li p {
+.projects-text{
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
