@@ -14,7 +14,7 @@ body{
     color: #2196F3
 }
 .footer-logo{
-font-style: normal;
+    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
@@ -28,7 +28,7 @@ font-style: normal;
 .unstyled-list{
     list-style: none;
 }
-.navigation-list li a{
+.navigation-list .your-a-class{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -36,7 +36,7 @@ font-style: normal;
     color: #212121;
     text-decoration: none;
 }
-.right-navigation-list li a{
+.right-navigation-list .your-a-class{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -47,7 +47,15 @@ font-style: normal;
 .your-a-class:hover{
     color: #2196F3;
 }
-.buttons-list li button{
+.your-a-class{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+.active-button{
     background: #F5F4FA;
     border-radius: 4px;
     font-weight: 500;
@@ -59,11 +67,10 @@ font-style: normal;
     border: none;
     cursor: pointer;
 }
-.buttons-list li button:hover{
+.active-button:hover{
     color: #F5F4FA;
     background: #2196F3;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-
 }
 .projects-title{
     font-weight: 700;
@@ -79,17 +86,6 @@ font-style: normal;
     letter-spacing: 0.03em;
     color: #757575;
 }
-.addres-list li a {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-    text-decoration: none;
-}
 footer{
     background: #2F303A;
-}
-.adress-style{
-    color: #FFFFFF;;
 }
